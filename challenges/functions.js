@@ -21,6 +21,18 @@ function consume (food, water, cb){
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
 
+function add (numOne, numTwo){
+  return numOne + numTwo 
+}
+
+function multiply (num0ne,numTwo){
+  return num0ne * numTwo;
+}
+
+function greeting (firstName, lastName){
+  return `Hello ${firstName} ${lastName} nice to meet you!`
+}
+
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
 // consume(2,2,add); // 4
