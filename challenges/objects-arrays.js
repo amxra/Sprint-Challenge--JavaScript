@@ -35,7 +35,7 @@ console.log(tyrannosaurus.weight);
 console.log(velociraptor.diet)
 
 // // How long was a stegosaurus?
-// console.log(stegosaurus.length);
+console.log(stegosaurus.length);
 
 // // What time period did tyrannosaurus live in?
 // console.log(tyrannosaurus.period);
