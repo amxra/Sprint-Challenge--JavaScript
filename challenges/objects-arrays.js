@@ -14,7 +14,7 @@
 
 function Dinosaur (name,diet,weight,length, period){
   this.name =name;
-  this.diet - diet;
+  this.diet = diet;
   this.weight = weight;
   this.length = length;
   this.period = period;
@@ -32,7 +32,7 @@ const stegosaurus = new Dinosaur("stegosaurus", "herbivorous", "2000kg", "9m", "
 console.log(tyrannosaurus.weight);
 
 // // What was the diet of a velociraptor?
-// console.log(velociraptor.diet);
+console.log(velociraptor.diet)
 
 // // How long was a stegosaurus?
 // console.log(stegosaurus.length);
