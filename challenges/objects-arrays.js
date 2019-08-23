@@ -38,7 +38,7 @@ console.log(velociraptor.diet)
 console.log(stegosaurus.length);
 
 // // What time period did tyrannosaurus live in?
-// console.log(tyrannosaurus.period);
+console.log(tyrannosaurus.period);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
