@@ -54,7 +54,7 @@ console.log(tyrannosaurus.period);
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
 
-tyrannosaurus.sound = () => "AWERSRARARWERSARARARRRR!"
+tyrannosaurus.roar = () => "RAWERSRARARWERSARARARRRR!"
 console.log(tyrannosaurus.sound());
 
 
