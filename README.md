@@ -38,13 +38,19 @@ A function stores a block of code that can be resued while a method is a functio
 
 3. What is closure?
 
-A close is an exviroment where we declare functions
+A closure is an exviroment where we declare variables
 
 4. Describe the four rules of the 'this' keyword.
 
-this in window
+* a. This refers to the window object when defined in the global scope. Any top level variable will be a property of this 
+* b. This becomes the object when it is defined within an object as a property. so that this.name === obj.name 
+* c. When this is new keyword binding, this refers the object that will be created with the new keyword
+* d. Explicit binding allows us to coerce this into what we want when using .call() or.apply() to invoke a function. 
+
 
 5. Why do we need super() in an extended class?
+
+super is used to call constructor of parent class.
 
 ## Project Set up
 
