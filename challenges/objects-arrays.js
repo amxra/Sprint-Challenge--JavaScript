@@ -81,7 +81,7 @@ function extractUni (person){
 /*Once you have the new array created, sort the universities alphabetically and log the result. */
 let universities = [];
 
-universities= graduates.map(extractUni);
+universities= graduates.map(extractUni).sort();
 
 console.log(universities)
 
