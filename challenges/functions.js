@@ -59,3 +59,5 @@ function myFunction() {
   nestedFunction();
 }
 myFunction();
+
+//nestedFunction can access the internal variable because they both exist within the same function scope of myFunction.
