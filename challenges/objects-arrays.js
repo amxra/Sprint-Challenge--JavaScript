@@ -94,7 +94,7 @@ Log the result of your new array. */
 let contactInfo = [];
 
 contactInfo = graduates.map((graduate)=>{
-  return graduate.first_name + '' + graduate.email;
+  return `${graduate.first_name } ${graduate.email}`;
 })
 
 console.log(contactInfo);
